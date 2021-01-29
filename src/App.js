@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './Components/Header';
 function App() {
   return (
     <div className="App">
@@ -9,6 +9,7 @@ function App() {
         <p>
           Esto es un ejemplo de página sin editar.
         </p>
+        <Header />
         <a
           className="App-link"
           href="https://reactjs.org"
